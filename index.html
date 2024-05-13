@@ -1,0 +1,19 @@
+<!-- form.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editor y Creador de listas M3U</title>
+</head>
+<body>
+    <h1>Editor y Creador de listas M3U</h1>
+    <form action="editor_m3u.php" method="POST">
+        <label for="filename">Nombre del archivo M3U:</label>
+        <input type="text" id="filename" name="filename" required>
+        <br><br>
+        <button type="submit" name="action" value="edit">Editar</button>
+        <button type="submit" name="action" value="create">Crear nuevo</button>
+    </form>
+</body>
+</html>
